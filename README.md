@@ -16,11 +16,13 @@ Map.
 in the console so for each command window you open, you may need
 to type the following command before running this code:**
 
-    chcp 65001 [Click here for more info](http://stackoverflow.com/questions/388490/unicode-characters-in-windows-command-line-how)
+    chcp 65001 
+    
+[Click here for more info](http://stackoverflow.com/questions/388490/unicode-characters-in-windows-command-line-how)
 
 
 You should install the SQLite browser to view and modify
-the databases from:[here](http://sqlitebrowser.org/)
+the databases from: [here](http://sqlitebrowser.org/)
 
 The first problem to solve is that the Google geocoding
 API is rate limited to a fixed number of requests per day.
@@ -49,9 +51,7 @@ into the Places API.  Also all the Google Geo-related APIs require an
 API key. To complete this assignment without a Google account,
 without an API key, or from a country that blocks
 access to Google, you can use a subset of that data which is
-available at:
-
-http://py4e-data.dr-chuck.net/json
+available [here](http://py4e-data.dr-chuck.net/json)
 
 To use this, simply leave the api_key set to False in 
 geoload.py.
@@ -60,9 +60,7 @@ This URL only has a subset of the data but it has no rate limit so
 it is good for testing.
 
 If you want to try this with the API key, follow the
-instructions at:
-
-https://developers.google.com/maps/documentation/geocoding/intro
+instructions [here] (https://developers.google.com/maps/documentation/geocoding/intro)
 
 and put the API key in the code.
 
