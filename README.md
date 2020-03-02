@@ -101,3 +101,7 @@ can hover over each map pin to find the location that the
 gecoding API returned for the user-entered input.  If you
 cannot see any data when you open the where.html file, you might
 want to check the JavaScript or developer console for your browser.
+
+**Sample output after opening the where.html**
+![](images/sample3.JPG)
+![](images/sample4.JPG)
