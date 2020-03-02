@@ -66,7 +66,7 @@ and put the API key in the code.
 
 **Here is a sample run after there is already some data in the
 database:**
-
+![](images/sample1.JPG)
 
 The geoload.py can be stopped at any time, and there is a counter
 that you can use to limit the number of calls to the geocoding
@@ -79,7 +79,7 @@ with the location, latitude, and longitude in the form of
 executable JavaScript code.
 
 **Sample output after the run of the geodump.py program:**
-
+![](images/sample2.JPG)
 
 The file (where.html) consists of HTML and JavaScript to visualize
 a Google Map.  It reads the most recent data in where.js to get
