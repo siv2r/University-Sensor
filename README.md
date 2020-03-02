@@ -2,29 +2,25 @@
 A Python based project which takes a list of universities from the user and uses Google Places API to get their latitude and longitude  hence, visualizing them on a Goolge map.
 
 
-INSTRUCTIONS :
+## INSTRUCTIONS :
 
-Using the Google Places API with a Database and
+Using the **Google Places API** with a Database and
 Visualizing Data on Google Map
 
-In this project, I am using the Google geocoding API
+In this project, I am using the **Google geocoding API**
 to clean up some user-entered geographic locations of
 university names and then placing the data on a Google
 Map.
 
-Note: Windows has difficulty in displaying UTF-8 characters
+**Note: Windows has difficulty in displaying UTF-8 characters
 in the console so for each command window you open, you may need
-to type the following command before running this code:
+to type the following command before running this code:**
 
-    chcp 65001
-
-http://stackoverflow.com/questions/388490/unicode-characters-in-windows-command-line-how
+    chcp 65001 [Click here for more info](http://stackoverflow.com/questions/388490/unicode-characters-in-windows-command-line-how)
 
 
 You should install the SQLite browser to view and modify
-the databases from:
-
-http://sqlitebrowser.org/
+the databases from:[here](http://sqlitebrowser.org/)
 
 The first problem to solve is that the Google geocoding
 API is rate limited to a fixed number of requests per day.
