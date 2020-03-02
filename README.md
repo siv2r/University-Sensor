@@ -104,4 +104,5 @@ want to check the JavaScript or developer console for your browser.
 
 **Sample output after opening the where.html**
 ![](images/sample3.JPG)
+
 ![](images/sample4.JPG)
