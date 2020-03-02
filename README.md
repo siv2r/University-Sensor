@@ -60,12 +60,12 @@ This URL only has a subset of the data but it has no rate limit so
 it is good for testing.
 
 If you want to try this with the API key, follow the
-instructions [here] (https://developers.google.com/maps/documentation/geocoding/intro)
+instructions [here](https://developers.google.com/maps/documentation/geocoding/intro)
 
 and put the API key in the code.
 
-Here is a sample run after there is already some data in the
-database:
+**Here is a sample run after there is already some data in the
+database:**
 
 Mac: python3 geoload.py
 Win: geoload.py
@@ -106,7 +106,7 @@ program reads the database and writes tile file (where.js)
 with the location, latitude, and longitude in the form of
 executable JavaScript code.
 
-A run of the geodump.py program is as follows:
+**A run of the geodump.py program is as follows:**
 
 Mac: python3 geodump.py
 Win: geodump.py
