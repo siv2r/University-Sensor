@@ -67,34 +67,6 @@ and put the API key in the code.
 **Here is a sample run after there is already some data in the
 database:**
 
-Mac: python3 geoload.py
-Win: geoload.py
-
-Found in database  Northeastern University
-
-Found in database  University of Hong Kong, Illinois Institute of Technology, Bradley University
-
-Found in database  Technion
-
-Found in database  Viswakarma Institute, Pune, India
-
-Found in database  UMD
-
-Found in database  Tufts University
-
-Resolving Monash University
-Retrieving http://py4e-data.dr-chuck.net/json?key=42&address=Monash+University
-Retrieved 2063 characters {    "results" : [
-{u'status': u'OK', u'results': ... }
-
-Resolving Kokshetau Institute of Economics and Management
-Retrieving http://py4e-data.dr-chuck.net/json?key=42&address=Kokshetau+Institute+of+Economics+and+Management
-Retrieved 1749 characters {    "results" : [
-{u'status': u'OK', u'results': ... }
-
-The first five locations are already in the database and so they
-are skipped.  The program scans to the point where it finds un-retrieved
-locations and starts retrieving them.
 
 The geoload.py can be stopped at any time, and there is a counter
 that you can use to limit the number of calls to the geocoding
@@ -106,20 +78,8 @@ program reads the database and writes tile file (where.js)
 with the location, latitude, and longitude in the form of
 executable JavaScript code.
 
-**A run of the geodump.py program is as follows:**
+**Sample output after the run of the geodump.py program:**
 
-Mac: python3 geodump.py
-Win: geodump.py
-
-Northeastern University, 360 Huntington Avenue, Boston, MA 02115, USA 42.3396998 -71.08975
-Bradley University, 1501 West Bradley Avenue, Peoria, IL 61625, USA 40.6963857 -89.6160811
-...
-Technion, Viazman 87, Kesalsaba, 32000, Israel 32.7775 35.0216667
-Monash University Clayton Campus, Wellington Road, Clayton VIC 3800, Australia -37.9152113 145.134682
-Kokshetau, Kazakhstan 53.2833333 69.3833333
-...
-12 records written to where.js
-Open where.html to view the data in a browser
 
 The file (where.html) consists of HTML and JavaScript to visualize
 a Google Map.  It reads the most recent data in where.js to get
