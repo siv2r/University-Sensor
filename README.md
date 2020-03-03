@@ -7,7 +7,7 @@ A Python based project which takes a list of universities from the user and uses
 Using the **Google Places API** with a Database and
 Visualizing Data on Google Map
 
-In this project, I am using the **Google geocoding API**
+In this project, I am using the **Google Geocoding API**
 to clean up some user-entered geographic locations of
 university names and then placing the data on a Google
 Map.
@@ -42,13 +42,13 @@ geodata.sqlite
 Run the geoload.py program.   This program will read the input
 lines in where.data and for each line check to see if it is already
 in the database and if we don't have the data for the location,
-call the geocoding API to retrieve the data and store it in
+call the Geocoding API to retrieve the data and store it in
 the database.
 
 As of December 2016, the Google Geocoding APIs changed dramatically.
 They moved some functionality that we use from the Geocoding API
 into the Places API.  Also all the Google Geo-related APIs require an
-API key. To complete this assignment without a Google account,
+API key. To execute these codes without a Google account,
 without an API key, or from a country that blocks
 access to Google, you can use a subset of that data which is
 available [here](http://py4e-data.dr-chuck.net/json)
