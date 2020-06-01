@@ -106,3 +106,6 @@ want to check the JavaScript or developer console for your browser.
 ![](images/sample3.JPG)
 
 ![](images/sample4.JPG)
+
+## Credits:
+This projects was part of the online course "Using Python to Access Web Data" by Dr.Chuck (University of Michigan)
